@@ -51,13 +51,33 @@ article {
 article:not(:last-child) {
   margin-bottom: 4em;
 }
+#submit,
+button {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border-style: none;
+  border-radius: 4px;
+  background-color: #f1c40f;
+  transition: ease-in-out 30ms;
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100px;
+  height: 40px;
+}
 .video {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 4em;
 }
-
+.types ul {
+  list-style: none;
+}
 .emoji {
   display: flex;
   align-items: center;
@@ -74,6 +94,24 @@ article:not(:last-child) {
   justify-content: center;
   width: 80vw;
 }
+.types {
+  border: solid #0c0c0c;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  height: 312px;
+  width: 282px;
+  line-height: 2em;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+#pricing {
+  display: flex;
+  justify-content: center;
+}
+
 #email {
   padding: 5px;
   min-height: 30px;
@@ -81,17 +119,11 @@ article:not(:last-child) {
   margin-bottom: 20px;
 }
 #submit {
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  border-style: none;
-  border-radius: 4px;
   min-height: 30px;
   min-width: 150px;
-  background-color: #f1c40f;
-  transition: ease-in-out 30ms;
 }
-#submit:hover {
+#submit:hover,
+button:hover {
   background-color: #ffa500;
 }
 .logo {
