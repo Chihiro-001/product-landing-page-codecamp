@@ -69,6 +69,26 @@ button {
   width: 100px;
   height: 40px;
 }
+h3,
+h4,
+#pricing li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h3 {
+  background-color: #dddddd;
+  height: 49px;
+  font-size: 16px;
+}
+h4 {
+  font-weight: 700;
+  font-size: 24px;
+  height: 54px;
+}
+#pricing li {
+  line-height: 2em;
+}
 .video {
   display: flex;
   align-items: center;
@@ -77,6 +97,7 @@ button {
 }
 .types ul {
   list-style: none;
+  margin-bottom: 10px;
 }
 .emoji {
   display: flex;
@@ -95,23 +116,19 @@ button {
   width: 80vw;
 }
 .types {
-  border: solid #0c0c0c;
-  border-radius: 4px;
   display: flex;
   flex-direction: column;
+  border: solid #0c0c0c;
+  border-radius: 4px;
   height: 312px;
   width: 282px;
-  line-height: 2em;
   text-align: center;
-  padding: 10px;
   margin: 10px;
 }
-
 #pricing {
   display: flex;
   justify-content: center;
 }
-
 #email {
   padding: 5px;
   min-height: 30px;
