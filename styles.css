@@ -22,10 +22,12 @@ header {
 nav {
   font-size: 16px;
 }
+ul {
+  list-style: none;
+}
 nav > ul {
   display: flex;
   position: relative;
-  list-style: none;
   flex-direction: row;
   justify-content: space-around;
   width: 35vw;
@@ -42,7 +44,7 @@ input {
   margin: 0 auto;
 }
 main {
-  margin: 5em 0;
+  margin: 5em 2em;
 }
 article {
   display: flex;
@@ -89,6 +91,18 @@ h4 {
 #pricing li {
   line-height: 2em;
 }
+footer {
+  background-color: #dddddd;
+  margin-top: 30px;
+  height: 82px;
+}
+ul > footer {
+  display: flex;
+  justify-content: flex-end;
+}
+footer li {
+  display: inline-block;
+}
 .video {
   display: flex;
   align-items: center;
@@ -96,7 +110,6 @@ h4 {
   margin-bottom: 4em;
 }
 .types ul {
-  list-style: none;
   margin-bottom: 10px;
 }
 .emoji {
@@ -148,7 +161,6 @@ button:hover {
 }
 .page-wrapper {
   position: relative;
-  margin: 0 30px;
 }
 .get-started {
   margin-top: 70px;
