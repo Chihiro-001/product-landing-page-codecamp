@@ -213,4 +213,20 @@ button:hover {
   }
 }
 @media (max-width: 576px) {
+  .logo {
+    width: 38vw;
+  }
+  nav {
+    font-size: 8px;
+  }
+  .get-started {
+    line-height: 2em;
+  }
+  .desc {
+    width: 70vw;
+    text-align: center;
+  }
+  iframe {
+    padding: 25px;
+  }
 }
